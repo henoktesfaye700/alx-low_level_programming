@@ -1,9 +1,5 @@
-#ifndef _MAIN_HEADER_
-#define _MAIN_HEADER_
-
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -26,9 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-int add(int a, int b);
-int sub(int a, int b);
-int mul(int a, int b);
-int div(int a, int b);
-int mod(int a, int b);
-#endif
+#endif /* _MAIN_H_ */
